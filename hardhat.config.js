@@ -25,7 +25,7 @@ const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY || "Your polygonscan
 const REPORT_GAS = process.env.REPORT_GAS || false
 
 /** @type import('hardhat/config').HardhatUserConfig */
-mododule.exports = {
+module.exports = {
     defaultNetwork: "hardhat",
     networks: {
         hardhat: {
